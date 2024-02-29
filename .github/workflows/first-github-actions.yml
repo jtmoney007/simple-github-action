@@ -3,9 +3,8 @@ on: [push]
 
 jobs:
   run-shell-command:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Echo a String
         run: echo "Hello Security Gurus!! This is our first GitHub Actions Workflow file"
 
-        
